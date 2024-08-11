@@ -52,7 +52,11 @@
 - Summarize the results from the machine learning model. Include your justification for recommending the model for use by the company. If you don’t recommend the model, justify your reasoning.
 
   <pre><strong>Analysis:</strong>
-  <p>[insert analysis here]</p></pre>
+  <p>The objective of this report is to assess the overall creditworthiness of borrowers based on specified criteria. 
+    - <strong>Precision:</strong> Precision is defined as the percentage of accurate positive predictions in relation to the total positive predictions. The model successfully predicted high-risk loans for borrowers with an accuracy rate of 87%.
+    - <strong>Recall:</strong> Recall is defined as the percentage of accurate positive predictions relative to the total actual positives. For this model, the accuracy rate is 89%.
+    - <strong>F1 Score:</strong> The F1 score represents a weighted average of precision and recall, with values closer to 1 indicating better performance. This model achieves an F1 score of 88%, signifying that it functions effectively.
+    Given the model's accuracy, I recommend proceeding with its implementation. Additionally, it would be beneficial to continue training the model with more data to enhance its overall accuracy in predicting high-risk borrowers./p></pre>
 
 <h3>4. Coding Conventions and Formatting</h3>
 
@@ -69,3 +73,7 @@
 <h3>5. Code Comments</h3>
 
 - Be well commented with concise, relevant notes that other developers can understand.
+
+<h3>6. Resources: </h3>
+
+- I used this website to assist me with my analysis: https://www.statology.org/sklearn-classification-report/
