@@ -56,7 +56,7 @@
     - <strong>Precision:</strong> Precision is defined as the percentage of accurate positive predictions in relation to the total positive predictions. The model successfully predicted high-risk loans for borrowers with an accuracy rate of 87%.
     - <strong>Recall:</strong> Recall is defined as the percentage of accurate positive predictions relative to the total actual positives. For this model, the accuracy rate is 89%.
     - <strong>F1 Score:</strong> The F1 score represents a weighted average of precision and recall, with values closer to 1 indicating better performance. This model achieves an F1 score of 88%, signifying that it functions effectively.
-  Given the model's accuracy, I recommend proceeding with its implementation. Additionally, it would be beneficial to continue training the model with more data to enhance its overall accuracy in predicting high-risk borrowers./p>
+  Given the model's accuracy, I recommend proceeding with its implementation. Additionally, it would be beneficial to continue training the model with more data to enhance its overall accuracy in predicting high-risk borrowers.</p>
   
   <h4>Important Note!</h4> I utilized this website to assist me with the definitions for my analysis: https://www.statology.org/sklearn-classification-report/. 
   
