@@ -9,39 +9,39 @@
 
 - Read the lending_data.csv data from the Resources folder into a Pandas DataFrame.
 
-  [insert image here]
+  ![image](https://github.com/user-attachments/assets/83506953-306c-40f4-bcde-c22f4f3947a4)
 
 - Create the labels set (y) from the “loan_status” column, and then create the features (X) DataFrame from the remaining columns.
 
-  [insert image here]
+  ![image](https://github.com/user-attachments/assets/aae5a5c1-c46d-40df-aa87-2167b3cd716d)
 
 - Split the data into training and testing datasets by using train_test_split.
 
-  [insert image here]
+  ![image](https://github.com/user-attachments/assets/4744c9d1-8ea4-4fbe-a103-75b47c5581a9)
 
 <h3>2. Create a Logistic Regression Model</h3>
 
 - Fit a logistic regression model by using the training data (X_train and y_train).
 
-  [insert image here]
+  ![image](https://github.com/user-attachments/assets/ef72e5b8-f5d2-4bae-9fa4-f181eb276ef4)
 
 - Save the predictions on the testing data labels by using the testing feature data (X_test) and the fitted model.
 
-  [insert image here]
+  ![image](https://github.com/user-attachments/assets/b1c631f6-be41-47e6-93e3-4f2e058a8a80)
 
 - Evaluate the model’s performance by doing the following:
 
   - Generate a confusion matrix.
 
-    [insert image here]
+    ![image](https://github.com/user-attachments/assets/300cf9e7-b7c0-40f5-91ae-358c01c6ebb9)
 
   - Generate a classification report.
- 
-    [insert image here]
-  
+
+    ![image](https://github.com/user-attachments/assets/8ac547fa-00d1-4e6a-96a9-557eee81d162)
+
 - Answer the following question: How well does the logistic regression model predict both the 0 (healthy loan) and 1 (high-risk loan) labels?
 
-  <pre>Answer: [insert answer here]</pre>
+  <pre>Answer: The model does a very good job of prdiciting healthy loans with 100% precision. The model is not as adept at predicting hih-risk loans with precision only at 87%. Overall, however, the model's accuracy is 99% which would lead one to believe that it is a good model. </pre>
 
 <h3>3. Write a Credit Risk Analysis Report</h3>
 
@@ -58,7 +58,7 @@
 
 - Place imports at the top of the file, just after any module comments and docstrings and before module globals and constants.
 
-  [insert image here]
+  ![image](https://github.com/user-attachments/assets/4985bed7-fd0b-4649-8f7b-272ad21a88af)
 
 - Name functions and variables with lowercase characters, with words separated by underscores.
 
